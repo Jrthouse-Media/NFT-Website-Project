@@ -78,13 +78,13 @@ function updateStatusText(isOwner, checking) {
   const statusText = document.querySelector('.owner-status');
   if(checking) {
     if(isOwner) {
-      statusText.innerText = `You have adopted from the ${COLLECTION_NAME}!! images/x-icon/favicon.ico Let's see how many${renderDots(dots)}`;
+      statusText.innerText = `You have adopted from the ${COLLECTION_NAME}!! Let's see how many${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Checking to see if you have already adopted an Elf ${COLLECTION_NAME} images/x-icon/favicon.ico ${renderDots(dots)}`;
+      statusText.innerText = `Checking to see if you have already adopted an elf from the ${COLLECTION_NAME}  ${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
-      statusText.innerText = `You have adopted ${editions.length} elves from the ${COLLECTION_NAME}!! images/x-icon/favicon.ico`;
+      statusText.innerText = `You have adopted ${editions.length} elves from the ${COLLECTION_NAME}!!`;
     } else {
       statusText.innerText = `You haven't adopted any elves from the ${COLLECTION_NAME} yet!`;
     }
