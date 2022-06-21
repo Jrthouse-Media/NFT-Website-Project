@@ -159,6 +159,7 @@ section {
 
 .owner-status {
   font-size: 2rem;
+  font-family: var(--font-secondary);
   text-align: center;
 }
 
