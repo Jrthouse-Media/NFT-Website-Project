@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'CodeCats';
+const COLLECTION_NAME = 'Elf Adoption Agency';
 let editions = [];
 let dots = 1;
 
@@ -78,15 +78,15 @@ function updateStatusText(isOwner, checking) {
   const statusText = document.querySelector('.owner-status');
   if(checking) {
     if(isOwner) {
-      statusText.innerText = `You do own ${COLLECTION_NAME}!! 😻 Let's see how many${renderDots(dots)}`;
+      statusText.innerText = `You have adopted from the ${COLLECTION_NAME}!! images/x-icon/favicon.ico Let's see how many${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Checking to see if you own any ${COLLECTION_NAME} 😻${renderDots(dots)}`;
+      statusText.innerText = `Checking to see if you have already adopted an Elf ${COLLECTION_NAME} images/x-icon/favicon.ico ${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
-      statusText.innerText = `You own ${editions.length} ${COLLECTION_NAME}!! 😻`;
+      statusText.innerText = `You have adopted ${editions.length} elves from the ${COLLECTION_NAME}!! images/x-icon/favicon.ico`;
     } else {
-      statusText.innerText = `You don't own any ${COLLECTION_NAME} 😿`;
+      statusText.innerText = `You haven't adopted any elves from the ${COLLECTION_NAME} yet!`;
     }
   }
   dots = dots === 3 ? 1 : dots + 1;
