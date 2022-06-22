@@ -91,6 +91,17 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
+/* BACKGROUND IMAGE */
+
+
+.reveal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 /* COUNTDOWN SECTION */
 
 section {
