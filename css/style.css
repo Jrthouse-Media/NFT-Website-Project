@@ -38,6 +38,8 @@ body {
   padding: 1rem 2rem;
 }
 
+
+
 /* HEADER */
 
 header {
@@ -129,11 +131,7 @@ header .container {
 
 .dropdown:hover .dropbtn {background-color: var(--btn-bg-color);}
 
-/* BACKGROUND IMAGE */
-.reveal {
-  max-height: 250px;
-  max-width: 250px;
-}
+
 
 /* COUNTDOWN SECTION */
 
