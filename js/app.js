@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'Elf Adoption Agency';
+const COLLECTION_NAME = 'ElfAdoptionAgency';
 let editions = [];
 let dots = 1;
 

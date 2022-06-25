@@ -1,7 +1,7 @@
 {
-  "name": "nft-landing-page",
+  "name": "Elf Adoption Agency - Webpage",
   "version": "1.1.0",
-  "description": "This repo is a work-in-progress and pairs with the Mint 10k NFT project.",
+  "description": "This repo is a work-in-progress as part of the Elf Adoption Agency NFT collection. This was adapted from the codeSTACKr repo on Github. This couldn't have been acheived without the tutorials by codeSTACKr and HashLips.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/codeSTACKr/nft-landing-page.git"
   },
   "keywords": [],
-  "author": "Jesse Hall (codeSTACKr)",
+  "author": "Original - Jesse Hall (codeSTACKr)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codeSTACKr/nft-landing-page/issues"
