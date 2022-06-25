@@ -63,7 +63,8 @@ header .container {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: inherit;
+  padding-left: 250px;
+  position: relative;
   width: 100%;
 }
 
