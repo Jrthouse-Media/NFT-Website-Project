@@ -33,7 +33,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -50,11 +50,13 @@ header .container {
   align-items: center;
 }
 
+
 .menu {
   display: flex;
   gap: 2rem;
   align-items: center;
 }
+
 
 /* BUTTONS */
 
@@ -91,15 +93,46 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
+.dropbtn {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-bg-color);
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  margin-left: 2rem;
+  border: transparent;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--btn-bg-color);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: var(--accent-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: var(--btn-bg-color)}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: var(--btn-bg-color);}
+
 /* BACKGROUND IMAGE */
-
-
 .reveal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  max-height: 250px;
+  max-width: 250px;
 }
 
 /* COUNTDOWN SECTION */
