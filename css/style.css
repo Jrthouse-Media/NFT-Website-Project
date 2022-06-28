@@ -15,30 +15,71 @@
   --header-shadow: rgb(255, 243, 243) 0px 0px 5px;
 }
 
+h1 {font-family: var(--font-primary);
+    text-shadow: 2px 2px #000000;
+  }
+h2 {font-family: var(--font-secondary);
+    text-shadow: 2px 2px #000000;
+}
+h3 {font-family: var(--font-secondary);}
+p  {font-family: var(--font-secondary);}
+a  {text-decoration: none;
+    text-emphasis-color: none;
+    color:#ffffff }
+
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
 body {
   background-color: var(--bg-color);
-  display: flex;
+  margin: 0;
+/*  display: flex;
   flex-flow: column;
-  height: 100vh;
+  height: 100vh;*/
   color: var(--font-color);
   font-family: var(--font-primary);
 }
 
 .container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   max-width: 1080px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
 
+/*Stages Content*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 25px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
 
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
 
 /* HEADER */
 
@@ -47,6 +88,7 @@ header {
 }
 
 header .container {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -229,6 +271,9 @@ section {
   }
   .countdown p {
     font-size: 1rem;
+  }
+  .column{
+    width: 100%;
   }
 }
  
